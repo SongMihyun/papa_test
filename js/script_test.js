@@ -92,3 +92,17 @@ var swiper = new Swiper(".allSwiper", {
  */
 
 
+//section03 클릭이벤트
+const lmLeft_List_li=$('.lmLeft_List>li');
+lmLeft_List_li.click(function(){
+    lmLeft_List_li.removeClass('ck');
+    $(this).addClass('ck');
+});
+
+//section05 클릭이벤트
+const ytb_bottom_li=$('.ytb_bottom>ul>li');
+ytb_bottom_li.click(function(){
+    ytb_bottom_li.removeClass('ck');
+    $(this).addClass('ck');
+    
+});
