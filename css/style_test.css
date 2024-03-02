@@ -34,7 +34,7 @@ ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: 
 /* Swiper 배너슬라이드-공통 */
 .swiperWrap{width: 98vw; height: 100%;}
 .swiper {width: 100%; height: 100%;}
-.swiper-slide { text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
 .swiper-slide .imgBox { display: block; width: 100%; height: 100%; object-fit: cover;}
 .swiper {margin-left: auto; margin-right: auto;}
 .swiper-v {background: #eee;}
@@ -44,11 +44,22 @@ ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: 
 .swiper-button-next:after{content: "";}
 .swiper-button-prev:after{content: "";}
 
+.containerWrap>.swiper-slide{display: block;}
+
 
 
 /* .wrap{width: 99vw; height: auto; margin: 0 auto; background: pink; box-sizing: border-box;} */
 .containerWrap{width: 100%;}
 .container{max-width:1140px; height: auto; margin: 0 auto;}
+#container0{display: block;}
+#container1{display: block;}
+#container2{display: block;}
+#container3{display: block;}
+#container4{display: block;}
+#container5{display: block;}
+#container6{display: block;}
+#container7{display: block;}
+#container8{display: block;}
 
 
 /*header*/
@@ -458,9 +469,20 @@ ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: 
 /* 패드(세로), 모바일 */
 @media screen and (max-width: 767px) {
 
-    .container{max-width:767px;}
+    .container{max-width:99vw; max-height: 99vh; margin: 0 auto;}
+    /* .containerWrap{}
+    .footer{display: none;}
+    #mobile{display: block;}
     
-    .header{height: 10vh; scale: .95; margin: 0 auto; margin-top: 1vh;}
+    #containerWrap{}
+    #container0{}
+    #container1{display: block;}
+    #container1 {display: block;}
+ */
+
+
+    
+   /*  .header{height: 10vh; scale: .95; margin: 0 auto; margin-top: 1vh;}
     
     
     #container1{height: 17vh; padding-top: 1vh; margin: 0 auto;}
@@ -474,7 +496,7 @@ ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: 
 
     
     .nav{display: block; position: fixed; top:96vh; background: #fff; height: 4vh; z-index: 99999;}
-
+ */
 }
 
 @media screen and (max-width: 695px) {

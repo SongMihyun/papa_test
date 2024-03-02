@@ -1,3 +1,27 @@
+
+// 화면크기에따른 모바일버전과 pc버전 변경
+let winW=$(window).width();//현재 윈도우 크기
+if(winW<768){
+    $('#mode').removeClass('pc');
+    $('#mode').addClass('mobile');
+    $('#cont1').addClass('swiper-slide');
+    $('#cont2').addClass('swiper-slide');
+    $('#cont3').addClass('swiper-slide');
+    $('#cont4').addClass('swiper-slide');
+    $('#cont5').addClass('swiper-slide');
+}else{
+    $('#mode').removeClass('mobile');
+    $('#mode').addClass('pc');
+    $('#cont1').removeClass('swiper-slide');
+    $('#cont2').removeClass('swiper-slide');
+    $('#cont3').removeClass('swiper-slide');
+    $('#cont4').removeClass('swiper-slide');
+    $('#cont5').removeClass('swiper-slide');
+}
+
+
+
+
 /* <!-- Initialize Swiper --> */
 var swiper = new Swiper('.sec1_swiper', {
     slidesPerView: 1,
@@ -44,18 +68,6 @@ var swiper = new Swiper('.sec8_swiper', {
     },
 });
 
-var swiper = new Swiper('.m_ytb_swiper', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    
-    
-    navigation: {
-    nextEl: ".btn_next",
-    prevEl: ".btn_prev",
-    
-    },
-});
 
 // 스크롤 위치에따른 이벤트 지정
 
@@ -68,7 +80,6 @@ $(window).scroll(function(){
         $('.topBtn').addClass('blind');
         
     }
-
 });
 
 
@@ -106,3 +117,19 @@ ytb_bottom_li.click(function(){
     $(this).addClass('ck');
     
 });
+
+
+//m_swiper 스와이퍼//
+var swiper = new Swiper('.m_swiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+        
+    
+    navigation: {
+    nextEl: ".btn_next",
+    prevEl: ".btn_prev",
+    
+    },
+});
+
+

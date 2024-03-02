@@ -1,0 +1,12 @@
+.mobile{width: 100%; height: auto; position: fixed; top: 0; left: 0;}
+.mobile .m_wrap{width: 100%; height: auto; background: pink;}
+.mobile .m_wrap .m_swiper{}
+.mobile .m_wrap .m_swiper .m_swi_wrap{}
+.mobile .m_wrap .m_swiper .m_swi_wrap .container{width: 100vw; height: 100vh;} 
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont1{ height: auto; background-color: aqua;}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont2{ background-color: rgb(198, 224, 181);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont3{ background-color: rgb(204, 157, 104);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont4{ background-color: rgb(116, 40, 119);}
+
+
+
