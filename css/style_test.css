@@ -25,14 +25,14 @@ header a:hover{scale: 1.2;}
 ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: center center;  background-size: 100% 100%;}
 .imgBox{display: block; background-repeat: no-repeat; background-position: center center;  background-size: 100% 100%;}
 /* moreBtn / 더보기아이콘 */
-.moreBtn{display: block; background-repeat: no-repeat; background-position: center center;  background-size: 100% 100%; background-image: url(../img/section2/moreBtn.png)}
+.moreBtn{display: block; background-repeat: no-repeat; background-position: center center;  background-size: 100% 100%; background-image: url('../img/section2/moreBtn.png')}
 
 
 
 
 
 /* Swiper 배너슬라이드-공통 */
-.swiperWrap{width: 98vw; height: 100%;}
+/* .swiperWrap{width: 98vw; height: 100%;}
 .swiper {width: 100%; height: 100%;}
 .swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
 .swiper-slide .imgBox { display: block; width: 100%; height: 100%; object-fit: cover;}
@@ -44,8 +44,10 @@ ul.imgBox>li{display: block; background-repeat: no-repeat; background-position: 
 .swiper-button-next:after{content: "";}
 .swiper-button-prev:after{content: "";}
 
+
 .containerWrap>.swiper-slide{display: block;}
 
+ */
 
 
 /* .wrap{width: 99vw; height: auto; margin: 0 auto; background: pink; box-sizing: border-box;} */

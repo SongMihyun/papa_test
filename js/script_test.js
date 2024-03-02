@@ -124,12 +124,6 @@ var swiper = new Swiper('.m_swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
         
-    
-    navigation: {
-    nextEl: ".btn_next",
-    prevEl: ".btn_prev",
-    
-    },
 });
 
 

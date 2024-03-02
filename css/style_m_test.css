@@ -1,12 +1,49 @@
 .mobile{width: 100%; height: auto; position: fixed; top: 0; left: 0;}
 .mobile .m_wrap{width: 100%; height: auto; background: pink;}
-.mobile .m_wrap .m_swiper{}
-.mobile .m_wrap .m_swiper .m_swi_wrap{}
+.mobile .m_wrap .m_swiper{width: 100%; height: auto;}
+.mobile .m_wrap .m_swiper .m_swi_wrap{width: 100%; height: auto;}
 .mobile .m_wrap .m_swiper .m_swi_wrap .container{width: 100vw; height: 100vh;} 
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont1{ height: auto; background-color: aqua;}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont2{ background-color: rgb(198, 224, 181);}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont3{ background-color: rgb(204, 157, 104);}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont4{ background-color: rgb(116, 40, 119);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont1{width: 100vw; height: 100vh; background-color: aqua;}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont2{width: 100vw; height: 100vh; background-color: rgb(198, 224, 181);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont3{width: 100vw; height: 100vh; background-color: rgb(204, 157, 104);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont4{width: 100vw; height: 100vh; background-color: rgb(116, 40, 119);}
 
 
 
+.mobile .cont1{width: 100vw; height: auto; }
+.mobile .cont2{width: 100vw; height: auto;  background-color: aqua;}
+.mobile .cont3{width: 100vw; height: auto;  background-color: rgb(198, 224, 181);}
+.mobile .cont4{width: 100vw; height: auto;  background-color: rgb(204, 157, 104);}
+.mobile .cont5{width: 100vw; height: auto;  background-color: rgb(116, 40, 119);}
+.mobile #container0{width: 100vw;}
+.mobile #container1{width: 100vw;}
+.mobile #container2{width: 100vw;}
+.mobile #container3{width: 100vw;}
+.mobile #container4{width: 100vw;}
+.mobile #container5{width: 100vw;}
+
+
+.mobile .cont2 .section2{width: 100%; height: 100%;}
+.mobile .cont2 .section2 .ptWrap{width: 100%; height: 100%;}
+.mobile .cont2 .section2 .ptWrap .pt_list{width: 100%; height: 100%;}
+
+
+
+
+
+
+/* Swiper 배너슬라이드-공통 */
+.swiperWrap{width: 98vw; height: 100%;}
+.swiper {width: 100%; height: 100%;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: flex; justify-content: center; align-items: center;}
+.swiper-slide .imgBox { display: block; width: 100%; height: 100%; object-fit: cover;}
+.swiper {margin-left: auto; margin-right: auto;}
+.swiper-v {background: #eee;}
+
+.btn_next{display: block; width: 50px; height: 50px; background:transparent url(../img/slide/creator_right_icon.png)no-repeat center center/cover;}
+.btn_prev{display: block; width: 50px; height: 50px; background:transparent url(../img/slide/creator_left_icon.png)no-repeat center center/cover;}
+.swiper-button-next:after{content: "";}
+.swiper-button-prev:after{content: "";}
+
+
+.containerWrap>.swiper-slide{display: block;}
