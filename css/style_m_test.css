@@ -3,15 +3,15 @@
 .mobile .m_wrap .m_swiper{width: 100%; height: auto;}
 .mobile .m_wrap .m_swiper .m_swi_wrap{width: 100%; height: auto;}
 .mobile .m_wrap .m_swiper .m_swi_wrap .container{width: 100vw; height: 100vh;} 
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont1{width: 100vw; height: 100vh; background-color: aqua;}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont2{width: 100vw; height: 100vh; background-color: rgb(198, 224, 181);}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont3{width: 100vw; height: 100vh; background-color: rgb(204, 157, 104);}
-.mobile .m_wrap .m_swiper .m_swi_wrap .cont4{width: 100vw; height: 100vh; background-color: rgb(116, 40, 119);}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont1{width: 100vw; height: 100vh;}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont2{width: 100vw; height: 100vh;}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont3{width: 100vw; height: 100vh;}
+.mobile .m_wrap .m_swiper .m_swi_wrap .cont4{width: 100vw; height: 100vh;}
 
 
 
-.mobile .cont1{width: 100vw; height: auto; }
-.mobile .cont2{width: 100vw; height: auto;  background-color: aqua;}
+.mobile .cont1{width: 100vw; height: auto;}
+.mobile .cont2{width: 100vw; height: auto;}
 .mobile .cont3{width: 100vw; height: auto;  background-color: rgb(198, 224, 181);}
 .mobile .cont4{width: 100vw; height: auto;  background-color: rgb(204, 157, 104);}
 .mobile .cont5{width: 100vw; height: auto;  background-color: rgb(116, 40, 119);}
@@ -47,3 +47,4 @@
 
 
 .containerWrap>.swiper-slide{display: block;}
+.mobile .swiper-vertical>.swiper-wrapper{flex-direction: row;}/* 모바일 버전 스와이퍼 칼럼값을 로우값으로 변경 */

@@ -122,8 +122,17 @@ ytb_bottom_li.click(function(){
 //m_swiper 스와이퍼//
 var swiper = new Swiper('.m_swiper', {
     slidesPerView: 1,
-    spaceBetween: 30,
-        
+    spaceBetween: 0,
 });
+
+var swiper = new Swiper(".m_swiper", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    freeMode: true,
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+    mousewheel: true,
+  });
 
 
